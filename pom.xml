@@ -7,6 +7,14 @@
     <artifactId>parent</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
+    
+    <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0huastgaucwy-artifactory-primary-0-snapshots</name>
+        <url>https://springbootapp.jfrog.io/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 
     <modules>
         <module>counterservice</module>
