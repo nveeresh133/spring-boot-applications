@@ -34,11 +34,6 @@ pipeline {
 				sh "mvn clean verify sonar:sonar -Dsonar.projectKey=esp -Dsonar.projectName='esp'"
 			 }
 
-// 		stage('Deploy') {
-// 			steps {
-// 			    sh '''mvn jar:jar deploy:deploy'''
-// 			}
-//		}
-	}
-}
+	           }
+             }
 }
