@@ -38,6 +38,7 @@ pipeline {
 // 			steps {
 // 			    sh '''mvn jar:jar deploy:deploy'''
 // 			}
-		}
+//		}
 	}
+}
 }
