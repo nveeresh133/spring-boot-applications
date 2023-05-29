@@ -1,9 +1,9 @@
 pipeline {
 	agent any
 
-	environment {
-		mavenHome = tool 'jenkins-maven'
-	}
+// 	environment {
+// 		mavenHome = tool 'jenkins-maven'
+// 	}
 
 	tools {
          maven 'maven'
