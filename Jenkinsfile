@@ -30,6 +30,11 @@ pipeline {
 		    // 		sh "sonar-scanner -Dsonar.projectKey=esp -Dsonar.projectName='esp'"
 				sh "mvn clean verify sonar:sonar -Dsonar.projectKey=esp -Dsonar.projectName='esp'"
 			 }
+		stage('Deploy') {
+			steps {
+			    bat "mvn jar:jar deploy:deploy"
+			}
+		}
 
 	           }
              }
