@@ -10,6 +10,7 @@ pipeline {
 
 		stage('Build'){
 			steps {
+// 				sh '''mvn install -s settings.xml'''
 				sh '''mvn install -s settings.xml'''
 			}
 		}
