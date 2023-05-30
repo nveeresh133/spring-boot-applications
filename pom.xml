@@ -9,12 +9,12 @@
     <packaging>pom</packaging>
     
     <distributionManagement>
-    <snapshotRepository>
+         <snapshotRepository>
         <id>snapshots</id>
         <name>a0huastgaucwy-artifactory-primary-0-snapshots</name>
         <url>https://springbootapp.jfrog.io/artifactory/libs-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
+        </snapshotRepository>
+    </distributionManagement>
 
     <modules>
         <module>counterservice</module>
