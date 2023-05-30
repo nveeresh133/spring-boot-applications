@@ -101,6 +101,14 @@
             </snapshots>
         </repository>
     </repositories>
+         
+    <distributionManagement>
+         <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0huastgaucwy-artifactory-primary-0-snapshots</name>
+        <url>https://springbootapp.jfrog.io/artifactory/libs-snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 
 </project>
